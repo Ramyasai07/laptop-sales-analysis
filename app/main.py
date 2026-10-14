@@ -13,7 +13,7 @@ model = LinearRegression().fit(X, y)
 
 @app.get("/health")
 def health():
-    return jsonify(status="ok")
+    return jsonify(status="ok"), 200
 
 
 @app.post("/predict")

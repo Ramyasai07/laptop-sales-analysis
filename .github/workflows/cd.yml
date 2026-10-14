@@ -15,5 +15,5 @@ jobs:
         with:
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/laptop-sales:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/laptop-sales:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/laptop-sales-analysi:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/laptop-sales-analysi:${{ github.sha }}
